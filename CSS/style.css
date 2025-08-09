@@ -9,7 +9,8 @@ header {
 }
 
 .container {
-    width: 1300px;
+    width: 100%;
+    max-width: 1300px;
     margin: 0 auto;
     background-color: black;
 }
@@ -95,4 +96,9 @@ header {
 .link1:hover::after {
     left: 0;
     right: 0;
+}
+
+.figure img {
+    width: 100%;
+    margin: 0 auto;
 }
