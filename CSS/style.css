@@ -102,3 +102,65 @@ header {
     width: 100%;
     margin: 0 auto;
 }
+
+.container-main {
+    width: 1351px;
+    height: 735px;
+    margin: 20px auto;
+    background-image: url(../IMG/figure\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-main-img-title {
+    padding-top: 145px;
+    font-size: 30px;
+    color: #DED2B9;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-main-img-title-text {
+    height: 510px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+}
+
+.container-direction {
+    padding: 60px;
+    height: 720px;
+    background-image: url(../IMG/figure\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-direction-title {
+    font-size: 55px;
+}
+
+.container-direction-text {
+    font-size: 25px;
+}
+
+.container-image {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.image {
+    width: 600px;
+    height: 500px;
+}
